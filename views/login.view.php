@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
 
     <!-- Enlaza los archivos de FontAwes  desde el CDN -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-hzRZuLmVvoz+WU6PIwlFuybRg5R5GyfzC6x2Q6Mz14E95eU3qor0TD8Oe6lmyGYwB2Q74JLr8yeheTRqpLrCpA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
         <link rel="stylesheet" href="/CURSOPHP8/login_registro/css/estilos.css">
 
 <!-- Enlaza los archivos de JavaScript de Bootstrap desde el CDN -->
@@ -33,7 +32,7 @@
                                 <label for="username">Usuario</label>
                                 <div class="input-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                                        <span class="input-group-text material-symbols-outlined">person</span>
                                     </div>
                                     <input type="text" class="form-control" id="usuario" name="usuario" required>
                                 </div>
@@ -42,7 +41,7 @@
                                 <label for="password">Contraseña</label>
                                 <div class="input-group">
                                     <div class="input-group-prepend">
-                                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                        <span class="input-group-text  material-symbols-outlined">lock</span>
                                     </div>
                                     <input type="password" class="form-control" id="password" name="password" required>
                                 </div>
