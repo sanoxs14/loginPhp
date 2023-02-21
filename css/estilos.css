@@ -1,0 +1,14 @@
+body {
+    background-color: #1B1D35; /* Cambiar el color de fondo de la página */
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #2098e7; /* Cambiar el color de fondo del contenedor */
+    padding: 20px;
+}
+
+h1, p {
+    color: #FFF; /* Cambiar el color del texto */
+}
